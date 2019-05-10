@@ -1,0 +1,27 @@
+print("~ ~ ~ ~ ~ ~ ~ ~ Marksheet~ ~ ~ ~ ~ ~ ~")
+eng=int(input("Enter Marks of English out of 100"))
+Urdu=int(input("Enter Marks of Urdu out of 100"))
+Maths=int(input("Enter Marks of Maths out of 100"))
+Obt=eng+Urdu+Maths
+result=int((Obt/300)*100)
+#print("Percentage:",result,"%")
+if eng < 100 and Urdu and 100 and Maths < 100 :
+    if result >= 80 and result > 80:
+      print("Percentage:",result,"%","\n\nGrade:A+")
+    elif result > 70 and result < 80:
+      print("Percentage:",result,"%","\nGrade:A")
+    elif result > 60 and result < 70:
+      print("Percentage:",result,"%","\nGrade:B")
+    elif result > 50 and result < 60:
+      print("Percentage:",result,"%","\n Grade:C")
+    else:
+      print("Sorry you are Failed !!","\nPercentage:",result,"%")
+
+else:
+    print("   Invalid !!","Enter Marks out of 100")
+
+
+
+
+
+
